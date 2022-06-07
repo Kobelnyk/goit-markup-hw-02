@@ -1,17 +1,36 @@
 body {
     background: #E5E5E5;
-    color: #212121;
-    font-family: Roboto;       
+    color: #757575;
+    font-family: Roboto;
+    font-weight:  400;
+    font-size: ;
+    line-height: ;
 }
-header {
-    background: #FFFFFF;
+.header {
+   
+}
+
+.link{
+    color:black;
+    font-family: Raleway;
+        font-weight: 700px;
+}
+.link:hover {
+    color: #2196F3;
 }
 .logo{
     color:#2196F3;
     font-family: Raleway;
-    font: weight 400px;
+    font-weight:  700px;
+    margin-right: 20
+    ;
 }
-.a {  color: #212121
-    font-family: Roboto;
-    font: weight 500px;
+
+
+ul{
+    list-style: none;
 }
+.button{
+    cursor: pointer;
+
+    
