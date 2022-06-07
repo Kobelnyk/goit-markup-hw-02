@@ -1,0 +1,17 @@
+body {
+    background: #E5E5E5;
+    color: #212121;
+    font-family: Roboto;       
+}
+header {
+    background: #FFFFFF;
+}
+.logo{
+    color:#2196F3;
+    font-family: Raleway;
+    font: weight 400px;
+}
+.a {  color: #212121
+    font-family: Roboto;
+    font: weight 500px;
+}
