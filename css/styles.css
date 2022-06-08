@@ -1,36 +1,50 @@
 body {
-    background: #E5E5E5;
-    color: #757575;
-    font-family: Roboto;
-    font-weight:  400;
-    font-size: ;
-    line-height: ;
+    font-family: Roboto;   
 }
-.header {
-   
+.page-header{
+    color:#FFFFFF ;
 }
-
-.link{
-    color:black;
+.nav-logo {
     font-family: Raleway;
-        font-weight: 700px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #212121;
+    line-height: 0.84;
 }
-.link:hover {
+.nav-logo :hover,
+.nav-logo :active {
+    color: blue;
+}
+.nav-links .link:active
+{
+    color: blue;
+}
+.button :active{
+color: blue;
+}
+.logo {
     color: #2196F3;
 }
-.logo{
-    color:#2196F3;
-    font-family: Raleway;
-    font-weight:  700px;
-    margin-right: 20
-    ;
+.logo :hover,
+.logo :active {
+color: blue;
 }
-
-
-ul{
-    list-style: none;
+.link{
+    font-weight: 500;
+    color: #212121;
+    line-height: 0,88;
+} 
+.adress-links .link:active,
+.adress-links .link:focus {
+    color: blue;
 }
-.button{
-    cursor: pointer;
+.title{
+    line-height: 0.73;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    background-color:#2F303A ;
+    color: #FFFFFF;       
+} 
 
-    
+
