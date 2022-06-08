@@ -52,5 +52,7 @@ color: blue;
     background-color:#2F303A ;
     color: #FFFFFF;       
 } 
-
+.h1{
+    display: none;
+}
 
