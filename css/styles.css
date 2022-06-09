@@ -110,7 +110,7 @@ color: blue;
     line-height: 1.17;
     text-align: center;
 }
-.li > h4 {
+.person {
     font-size: 16px;
     line-height: 1.17;
     font-weight: 500;
@@ -127,12 +127,6 @@ footer  {
     color: #FFFFFF;
     background-color:#2F303A ;
 }
-
-/* .footer {
-    color: #FFFFFF;
-} */
-
-
 
 /* about Portfolio H1 */
 .none {
