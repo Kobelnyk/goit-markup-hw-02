@@ -5,7 +5,10 @@ body {
     font-family: Roboto,Verdana,
     sans-serif; 
     background-color: #E5E5E5;
-    color: #212121;  
+    color: #212121;   
+}
+.list {
+    list-style: none;
 }
 /* about header */
 .page-header{ 
@@ -28,16 +31,26 @@ body {
     color: blue;
 }
 .nav-links a {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-text-decoration: none;
-
-color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: #212121;
 }
-.adress-links a{
-
-text-decoration: none;
+.nav-links :hover,
+.nav-links :focus {
+    color: blue;
+}
+.adress-links a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: #757575;
+}
+.adress-links :hover,
+.adress-links :focus {
+color: blue;
 }
 
 
