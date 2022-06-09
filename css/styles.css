@@ -11,18 +11,23 @@ body {
 .page-header{ 
    background-color: #FFFFFF;
 }
-/* .nav-logo {
+.nav-logo {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: #212121;
-    line-height: 0.84;
+    line-height: 1.17;
     text-decoration: none;
-} */
-/* .nav-logo :hover,
-.nav-logo :active {
+}
+.nav-logo :hover,
+.nav-logo :focus {
     color: blue;
-} */
+}
+.logo {
+    color: #2196F3;
+}
+
+
 /* .nav-links .link:active
 {
     color: blue;
@@ -30,9 +35,7 @@ body {
 /* .button :active{
 color: blue;
 } */
-/* .logo {
-    color: #2196F3;
-} */
+
 /* .logo :hover,
 .logo :active {
 color: blue;
