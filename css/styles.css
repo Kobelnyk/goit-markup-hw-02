@@ -5,10 +5,11 @@
 body {
     font-family: Roboto,Verdana,
     sans-serif; 
+    background-color: #E5E5E5;
     color: #212121;  
 }
 .page-header{ 
-    color: #FFFFFF;
+   background-color: #FFFFFF;
 }
 /* .nav-logo {
     font-family: Raleway;
