@@ -1,6 +1,7 @@
 /* :root{
     --:
 } */
+
 /* about body */
 body {
     font-family: Roboto,Verdana,
@@ -16,7 +17,6 @@ body {
 .button :active {
     color: blue;
 }
-
 /* about header */
 .page-header{ 
     background-color: #FFFFFF;
@@ -65,17 +65,34 @@ color: blue;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
     background-color:#2F303A;
     color: #FFFFFF;
 }
-.button {
+.title button {
     font-weight: 700 ;
     font-size: 16px;
     line-height: 1,88;
     background-color: #2196F3;
     color: #FFFFFF;
 }
+/* about section accent */
 
+.list h3 {
+    font-size: 14px;
+    line-height: 1,14;
+} 
+.list p {
+    color: #757575; 
+    font-size: 14px;
+    line-height: 1,71;
+}
+/* about section works */
+.h2 {
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+}
 /* about Portfolio H1 */
 .none {
     display: none;
