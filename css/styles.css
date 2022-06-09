@@ -1,31 +1,45 @@
 /* :root{
     --:
 } */
-
 body {
     font-family: Roboto,Verdana,
     sans-serif; 
     background-color: #E5E5E5;
     color: #212121;  
 }
+/* about header */
 .page-header{ 
    background-color: #FFFFFF;
 }
+/* about logo */
 .nav-logo {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    color: #212121;
     line-height: 1.17;
+    color: #212121;
     text-decoration: none;
+}
+.logo  {
+    color: #2196F3;
 }
 .nav-logo :hover,
 .nav-logo :focus {
     color: blue;
 }
-.logo {
-    color: #2196F3;
+.nav-links a {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+
+color: #212121;
 }
+.adress-links a{
+
+text-decoration: none;
+}
+
 
 
 /* .nav-links .link:active
