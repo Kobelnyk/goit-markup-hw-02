@@ -60,7 +60,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     font-style: normal;
-    line-height: 1.14;
+    line-height: 1.17;
     text-decoration: none;
 
     color: #757575;
@@ -105,7 +105,12 @@ color: blue;
 .team{
  background-color:#F5F4FA ;   
 }
-.li h3 {
+.team h2{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.li > h4 {
     font-size: 16px;
     line-height: 1.17;
     font-weight: 500;
