@@ -6,9 +6,32 @@
 body {
     font-family: Roboto,Verdana,
     sans-serif; 
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
     color: #212121;   
 }
+/* about logo */
+.nav-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
+}
+.logo {
+    color: #2196F3;
+}
+.logo-header {
+    color: #212121;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.nav-logo :hover,
+.nav-logo :focus {
+    color: blue;
+}
+
+
 /* about list */
 .list {
     list-style: none;
@@ -21,27 +44,11 @@ body {
 .page-header{ 
     background-color: #FFFFFF;
 }
-/* about logo */
-.nav-logo {
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.17;
-    color: #212121;
-    text-decoration: none;
-}
-.logo  {
-    color: #2196F3;
-}
-.nav-logo :hover,
-.nav-logo :focus {
-    color: blue;
-}
 /* about links */
 .nav-links a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.17;
     text-decoration: none;
     color: #212121;
 }
@@ -52,8 +59,10 @@ body {
 .adress-links a {
     font-weight: 500;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.14;
     text-decoration: none;
+
     color: #757575;
 }
 .adress-links :hover,
@@ -72,27 +81,54 @@ color: blue;
 .title button {
     font-weight: 700 ;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     background-color: #2196F3;
     color: #FFFFFF;
 }
 /* about section accent */
-
 .list h3 {
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.17;
 } 
-.list p {
+.list  p {
     color: #757575; 
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 /* about section works */
-.h2 {
+.works h2 {
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
 }
+/* about section team */
+.team{
+ background-color:#F5F4FA ;   
+}
+.li h3 {
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 500;
+}
+.p{
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+/* about footer */
+footer  {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+    background-color:#2F303A ;
+}
+
+/* .footer {
+    color: #FFFFFF;
+} */
+
+
+
 /* about Portfolio H1 */
 .none {
     display: none;
