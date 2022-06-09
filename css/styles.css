@@ -2,58 +2,59 @@
     --:
 } */
 
-
 body {
-    font-family: Roboto; 
-    background-color: #E5E5E5;  
+    font-family: Roboto,Verdana,
+    sans-serif; 
+    color: #212121;
+    /* background-color: #E5E5E5;   */
 }
-.page-header{
-    color: #FFFFFF ;
+.page-header{ 
+    color: #FFFFFF;
 }
-.nav-logo {
+/* .nav-logo {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: #212121;
     line-height: 0.84;
     text-decoration: none;
-}
-.nav-logo :hover,
+} */
+/* .nav-logo :hover,
 .nav-logo :active {
     color: blue;
-}
-.nav-links .link:active
+} */
+/* .nav-links .link:active
 {
     color: blue;
-}
-.button :active{
+} */
+/* .button :active{
 color: blue;
-}
-.logo {
+} */
+/* .logo {
     color: #2196F3;
-}
-.logo :hover,
+} */
+/* .logo :hover,
 .logo :active {
 color: blue;
-}
-.link{
+} */
+/* .link{
     font-weight: 500;
     color: #212121;
     line-height: 0,88;
-} 
-.adress-links .link:active,
+}  */
+/* .adress-links .link:active,
 .adress-links .link:focus {
     color: blue;
-}
-.title{
+} */
+/* .title{
     line-height: 0.73;
     font-weight: 900;
     font-size: 44px;
     line-height: 0.73;
     background-color:#2F303A ;
     color: #FFFFFF;       
-} 
-.none{
+}  */
+/* .none{
     display: none;
-}
+} */
 
