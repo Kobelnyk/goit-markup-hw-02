@@ -1,15 +1,31 @@
-/* :root{
-    --:
-} */
-
-/* about body */
-body {
-    font-family: Roboto,Verdana,
-    sans-serif; 
-    /* background-color: #E5E5E5; */
-    color: #212121;   
+:root{
+    --primary-font: Roboto, sans-serif;
+    --logo-font: Raleway, sans-serif;
+    --primary-color: #212121;
+    --secondary-color:#757575;
+    --logo-color:#2196F3;
+    --primary-background-color: #E5E5E5;
+    --secondary-background-color: #F5F4FA;
 }
-/* about logo */
+/* about body */
+body { 
+    font-family: var(--primary-font);
+    color: var(--primary-color);  
+    background-color: var(--primary-background-color)
+}
+ .page-header {
+    display: flex;
+    background-color: #FFFFFF;    
+}
+.content {
+    width: 1600px;
+    margin: 0 auto;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 215px;   
+}
 .nav-logo {
     font-family: Raleway;
     font-size: 26px;
@@ -17,8 +33,32 @@ body {
     line-height: 1.17;
     text-decoration: none;
 }
+.nav-links {
+    display: flex;
+    padding-left: 90px;
+}
+.list {
+    list-style: none;
+}
+.adress-links {
+    display: flex;
+}
+.nav-link:first-child{
+    margin-right: 50px;   
+}
+.nav-link{
+    margin-right: 50px;
+}
+.nav-link:last-child{
+    margin-right: 330px;
+}
+.adress-last{
+    margin-left:  50px; ;
+}
+
+/* about logo */
 .logo {
-    color: #2196F3;
+    color: #2196F3;   
 }
 .logo-header {
     color: #212121;
@@ -30,19 +70,9 @@ body {
 .nav-logo :focus {
     color: blue;
 }
-
-
-/* about list */
-.list {
-    list-style: none;
-}
 /* about button */
 .button :active {
     color: blue;
-}
-/* about header */
-.page-header{ 
-    background-color: #FFFFFF;
 }
 /* about links */
 .nav-links a {
@@ -62,30 +92,51 @@ body {
     font-style: normal;
     line-height: 1.17;
     text-decoration: none;
-
     color: #757575;
 }
 .adress-links :hover,
 .adress-links :focus {
 color: blue;
 }
-/* about section title */
-.title{
+
+/* about section title-main */
+.title-main{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     background-color:#2F303A;
     color: #FFFFFF;
+    display: block;
+    padding-top: 80px;
+
+    /* align-items: center; */
 }
-.title button {
+.title-main button {
     font-weight: 700 ;
     font-size: 16px;
     line-height: 1.88;
     background-color: #2196F3;
     color: #FFFFFF;
+    align-items: center;
+    margin-bottom: 200px;
 }
-/* about section accent */
+
+/* about section credo */
+.credo-items{
+    padding-left: 215px; 
+    padding-right: 215px; 
+    display: flex;
+}
+.credo-item:first-child{
+    margin-right: 30px;
+}
+.credo-item{
+    margin-right: 30px;
+}
+/* .credo-item:last-child {
+    margin-right: 0px;
+} */
 .list h3 {
     font-size: 14px;
     line-height: 1.17;
@@ -96,16 +147,47 @@ color: blue;
     line-height: 1.71;
 }
 /* about section works */
-.works h2 {
+.work-items{
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+.work-item:first-child {
+    margin-right: 30px;
+} 
+.work-item {
+    margin-right: 30px;
+}
+.work h2 {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
+
+
+
+
+
 /* about section team */
-.team{
- background-color:#F5F4FA ;   
+.teams{
+    background-color: #F5F4FA;
+    margin-top: 0px;
 }
-.team h2{
+.team-items{
+       
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.team-item:first-child {
+    margin-right: 30px;
+}
+
+.team-item {
+    margin-right: 30px;
+}
+.teams > h2{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -132,7 +214,9 @@ footer  {
 .none {
     display: none;
 }
-
+.foto-item{
+display: flex;
+}
 
 
 
