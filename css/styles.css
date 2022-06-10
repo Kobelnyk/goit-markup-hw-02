@@ -17,6 +17,9 @@ body {
     display: flex;
     background-color: #FFFFFF;    
 }
+/* .current{
+    background-color: #2196F3;
+} */
 .content {
     width: 1600px;
     margin: 0 auto;
@@ -24,7 +27,7 @@ body {
 .header-nav {
     display: flex;
     align-items: center;
-    padding-left: 215px;   
+   
 }
 .nav-logo {
     font-family: Raleway;
@@ -32,6 +35,7 @@ body {
     font-weight: 700;
     line-height: 1.17;
     text-decoration: none;
+    padding-left: 215px;
 }
 .nav-links {
     display: flex;
@@ -40,9 +44,12 @@ body {
 .list {
     list-style: none;
 }
-.adress-links {
+.header-links {
     display: flex;
 }
+/* .adress-links {
+    display: flex;
+} */
 .nav-link:first-child{
     margin-right: 50px;   
 }
@@ -52,7 +59,8 @@ body {
 .nav-link:last-child{
     margin-right: 330px;
 }
-.adress-last{
+
+.header-last{
     margin-left:  50px; ;
 }
 
@@ -86,7 +94,7 @@ body {
 .nav-links :focus {
     color: blue;
 }
-.adress-links a {
+.header-links a {
     font-weight: 500;
     font-size: 14px;
     font-style: normal;
@@ -94,8 +102,8 @@ body {
     text-decoration: none;
     color: #757575;
 }
-.adress-links :hover,
-.adress-links :focus {
+.header-links :hover,
+.header-links :focus {
 color: blue;
 }
 
@@ -164,51 +172,78 @@ color: blue;
     text-align: center;
 }
 
-
-
-
-
 /* about section team */
 .teams{
     background-color: #F5F4FA;
-    margin-top: 0px;
+    margin-top: px;
 }
-.team-items{
-       
+.team-items{ 
+    background-color: #F5F4FA;
     display: flex;
     padding-left: 215px;
     padding-right: 215px;
 }
-
 .team-item:first-child {
     margin-right: 30px;
 }
-
 .team-item {
     margin-right: 30px;
+    background-color: #F5F4FA;
 }
 .teams > h2{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top: 188px;
+}
+
+.persons{
+   background-color: #FFFFFF; 
 }
 .person {
     font-size: 16px;
     line-height: 1.17;
-    font-weight: 500;
+    font-weight: 500;   
 }
 .p{
     font-size: 16px;
     line-height: 1.17;
 }
 
+
+
+
+
 /* about footer */
-footer  {
+.footer  {
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
     background-color:#2F303A ;
+    height: 252px;  
 }
+.adress-links{
+font-style: normal;
+padding-left: 215px;   
+}
+.adress-link{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.adress-links :hover,
+.adress-links :focus {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
 
 /* about Portfolio H1 */
 .none {
