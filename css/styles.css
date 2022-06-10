@@ -252,8 +252,29 @@ padding-left: 215px;
 .foto-item{
 display: flex;
 }
+.work-items{
+    display: flex;
+    /* padding-left: 495px; */
+}
+/* .li>button:first-child {
+    margin-right: 800px;
+} */
 
+/* .button-link {
+    margin-right: 50px;
+} */
 
+/* .nav-link:last-child {
+    margin-right: 330px;
+} */
 
+/* .header-last {
+    margin-left: 50px;
+    ;
+} */
+
+/* .foto-works{
+
+} */
 
 
