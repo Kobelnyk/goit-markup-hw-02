@@ -1,111 +1,116 @@
 :root{
     --primary-font: Roboto, sans-serif;
     --logo-font: Raleway, sans-serif;
-    --primary-color: #212121;
-    --secondary-color:#757575;
-    --logo-color:#2196F3;
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #F5F4FA;
+    --header--background-color: #FFFFFF;
+    --footer-background-color: #2F303A;
+    --primary-color: #212121;
+    --secondary-color:#757575;
+    --logo-color:#2196F3; 
 }
+
 /* about body */
 body { 
     font-family: var(--primary-font);
     color: var(--primary-color);  
     background-color: var(--primary-background-color)
 }
- .page-header {
+
+
+ /* about header */
+.page-header {
     display: flex;
-    background-color: #FFFFFF;    
+    background-color: var(--header--background-color) 
 }
-/* .current{
-    background-color: #2196F3;
-} */
-.content {
-    width: 1600px;
-    margin: 0 auto;
-}
+
 .header-nav {
     display: flex;
     align-items: center;
-   
 }
+
 .nav-logo {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 1.17;
+    line-height: 1.19;
     text-decoration: none;
     padding-left: 215px;
 }
+
 .nav-links {
     display: flex;
     padding-left: 90px;
 }
-.list {
-    list-style: none;
-}
+
 .header-links {
     display: flex;
 }
-/* .adress-links {
-    display: flex;
-} */
-.nav-link:first-child{
-    margin-right: 50px;   
-}
-.nav-link{
+
+.nav-link:first-child {
     margin-right: 50px;
 }
-.nav-link:last-child{
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.nav-link:last-child {
     margin-right: 330px;
 }
 
-.header-last{
-    margin-left:  50px; ;
+.header-last {
+    margin-left: 50px;   
 }
 
-/* about logo */
-.logo {
-    color: #2196F3;   
-}
-.logo-header {
-    color: #212121;
-}
-.logo-footer {
-    color: #FFFFFF;
-}
-.nav-logo :hover,
-.nav-logo :focus {
-    color: blue;
-}
-/* about button */
-.button :active {
-    color: blue;
-}
-/* about links */
 .nav-links a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.14;
     text-decoration: none;
-    color: #212121;
+    color: var(--primary-color);
 }
+
 .nav-links :hover,
 .nav-links :focus {
     color: blue;
 }
+
 .header-links a {
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
-    line-height: 1.17;
+    line-height: 1.14;
     text-decoration: none;
-    color: #757575;
+    color: var(--secondary-color);
 }
+
 .header-links :hover,
 .header-links :focus {
-color: blue;
+    color: blue;
 }
+
+
+
+/* about logo */
+.logo {
+    color: var(--logo-color);
+}
+
+.logo-header {
+    color: var(--primary-color);
+}
+
+.nav-logo :hover,
+.nav-logo :focus {
+    color: blue;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+
+/* about main studio */
 
 /* about section title-main */
 .title-main{
@@ -113,13 +118,12 @@ color: blue;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    background-color:#2F303A;
+    background-color:var(--footer-background-color);
     color: #FFFFFF;
     display: block;
     padding-top: 80px;
-
-    /* align-items: center; */
 }
+
 .title-main button {
     font-weight: 700 ;
     font-size: 16px;
@@ -130,43 +134,52 @@ color: blue;
     margin-bottom: 200px;
 }
 
+.button :active {
+    color: blue;
+}
+
 /* about section credo */
 .credo-items{
     padding-left: 215px; 
     padding-right: 215px; 
     display: flex;
 }
+
 .credo-item:first-child{
     margin-right: 30px;
 }
+
 .credo-item{
     margin-right: 30px;
 }
-/* .credo-item:last-child {
-    margin-right: 0px;
-} */
-.list h3 {
-    font-size: 14px;
-    line-height: 1.17;
-} 
-.list  p {
-    color: #757575; 
+.credo{
+    color: var(--secondary-color);
     font-size: 14px;
     line-height: 1.71;
 }
+
+.list h3 {
+    font-size: 14px;
+    line-height: 1.14;
+} 
+ 
+
 /* about section works */
 .work-items{
     display: flex;
     padding-left: 215px;
     padding-right: 215px;
 }
+
 .work-item:first-child {
     margin-right: 30px;
 } 
+
 .work-item {
     margin-right: 30px;
 }
-.work h2 {
+
+.work >h2 {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -174,22 +187,23 @@ color: blue;
 
 /* about section team */
 .teams{
-    background-color: #F5F4FA;
-    margin-top: px;
+    background-color: var(--secondary-background-color);
 }
+
 .team-items{ 
-    background-color: #F5F4FA;
     display: flex;
     padding-left: 215px;
     padding-right: 215px;
 }
+
+.team-item {
+    margin-right: 30px;
+}
+
 .team-item:first-child {
     margin-right: 30px;
 }
-.team-item {
-    margin-right: 30px;
-    background-color: #F5F4FA;
-}
+
 .teams > h2{
     font-size: 36px;
     line-height: 1.17;
@@ -198,35 +212,38 @@ color: blue;
 }
 
 .persons{
-   background-color: #FFFFFF; 
+   background-color:var(--header--background-color); 
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+   text-align: center;
 }
+
 .person {
     font-size: 16px;
-    line-height: 1.17;
-    font-weight: 500;   
+    line-height: 1.19;
+    font-weight: 500; 
+    text-align: center;
 }
-.p{
+.about{
+    color: var(--secondary-color);
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.19;
 }
-
-
-
 
 
 /* about footer */
-.footer  {
+.footer {
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
-    background-color:#2F303A ;
+    background-color:var(--footer-background-color) ;
     height: 252px;  
 }
-.adress-links{
-font-style: normal;
-padding-left: 215px;   
+.adress-links {
+    font-style: normal;
+    padding-left: 215px;   
 }
-.adress-link{
+.adress-link {
     color: #FFFFFF;
     text-decoration: none;
 
@@ -238,43 +255,66 @@ padding-left: 215px;
 
 
 
+/* about main portfolio */
 
-
-
-
-
-
-
-/* about Portfolio H1 */
-.none {
-    display: none;
+/* about section about works */
+.none-color {
+    color: #E5E5E5;
 }
-.foto-item{
-display: flex;
-}
-.work-items{
+
+.buttons {
     display: flex;
-    /* padding-left: 495px; */
+    padding-left: 495px;
 }
-/* .li>button:first-child {
-    margin-right: 800px;
-} */
 
-/* .button-link {
-    margin-right: 50px;
-} */
+.button{
+    background-color:var(--secondary-background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    display: flex;    
+}
 
-/* .nav-link:last-child {
-    margin-right: 330px;
-} */
+.button:first-child {
+    margin-right: 8px;
+}
 
-/* .header-last {
-    margin-left: 50px;
-    ;
-} */
+.button {
+    margin-right: 8px;
+}
 
-/* .foto-works{
+/* about section projects */
+.projects{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.projects-items{
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+.projects-item:first-child{
+    margin-right: 30px;
+}
+.projects-item{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 2;
+}
+.project{
+    font-size: 16px;
+    line-height: 1.88;
+}
 
-} */
+/* about comon */
 
+.content {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
 
