@@ -42,7 +42,9 @@ body {
     display: flex;
     padding-left: 90px;
 }
-
+.current::backdrop{
+    color: #2196F3 ;
+}
 .header-links {
     display: flex;
 }
@@ -321,4 +323,6 @@ body {
 .list {
     list-style: none;
 }
-
+.button{
+    cursor: pointer;
+}
