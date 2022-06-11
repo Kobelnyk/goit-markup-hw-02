@@ -118,6 +118,8 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     background-color:var(--footer-background-color);
     color: #FFFFFF;
     display: block;
@@ -132,6 +134,7 @@ body {
     color: #FFFFFF;
     align-items: center;
     margin-bottom: 200px;
+    letter-spacing: 0.06em;
 }
 
 .button :active {
@@ -156,11 +159,14 @@ body {
     color: var(--secondary-color);
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .list h3 {
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
+        text-transform: uppercase;
 } 
  
 
@@ -272,16 +278,14 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-    display: flex;    
+    display: flex;  
+    margin-right: 8px;
 }
 
 .button:first-child {
     margin-right: 8px;
 }
 
-.button {
-    margin-right: 8px;
-}
 
 /* about section projects */
 .projects{
@@ -299,9 +303,9 @@ body {
 .projects-item{
     margin-right: 30px;
     font-size: 18px;
-    font-weight: 700px;
     line-height: 2;
 }
+
 .project{
     font-size: 16px;
     line-height: 1.88;
