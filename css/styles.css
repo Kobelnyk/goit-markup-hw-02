@@ -42,8 +42,11 @@ body {
     display: flex;
     padding-left: 90px;
 }
-.current::backdrop{
+.current.link{
     color: #2196F3 ;
+}
+.current.header-link{
+    color: #2196F3;
 }
 .header-links {
     display: flex;
