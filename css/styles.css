@@ -148,7 +148,7 @@ body {
 
 .button :active {
     color: var(--logo-footer-color);
-    background-color:var(--logo-current-color);
+    background-color:#2196F3;
 }
 
 /* about section credo */
