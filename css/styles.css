@@ -146,9 +146,10 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* .button :active {
-    color: #FFFFFF;
-} */
+.button :active {
+    color: var(--logo-footer-color);
+    background-color: var(--logo-current-color);
+}
 
 /* about section credo */
 .credo-items {
