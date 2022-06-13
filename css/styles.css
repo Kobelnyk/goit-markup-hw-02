@@ -1,7 +1,7 @@
 :root {
   --primary-font: Roboto, sans-serif;
   --logo-font: Raleway, sans-serif;
-  --primary-background-color: #e5e5e5;
+  --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --header--background-color: #ffffff;
   --footer-background-color: #2f303a;
@@ -9,7 +9,7 @@
   --secondary-color: #757575;
   --logo-current-color: #2196f3;
   --logo-footer-color: #ffffff;
-  --bordtr-foto-color: #eeeeee;
+  --border-foto-color: #eeeeee;
   --links-color: #212121;
 }
 
@@ -47,9 +47,7 @@ body {
 .current.link {
   color: var(--logo-current-color);
 }
-.current.header-link {
-  color: var(--logo-current-color);
-}
+
 .header-links {
   display: flex;
 }
@@ -94,7 +92,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-links a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-links :hover,
@@ -147,11 +145,12 @@ body {
 }
 
 .button :active {
-    color: var(--logo-footer-color);
-    background-color:var(--logo-current-color);
+  color: var(--logo-footer-color);
+  background-color: var(--logo-current-color);
 }
 
 /* about section credo */
+
 .credo-items {
   padding-left: 215px;
   padding-right: 215px;
@@ -172,7 +171,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list h3 {
+.credo-name {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -195,7 +194,7 @@ body {
   margin-right: 30px;
 }
 
-.work > h2 {
+.work-name {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -221,7 +220,7 @@ body {
   margin-right: 30px;
 }
 
-.teams > h2 {
+.team-name {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -259,14 +258,21 @@ body {
   background-color: var(--footer-background-color);
   height: 252px;
 }
+
 .adress-links {
   font-style: normal;
   padding-left: 215px;
 }
+
 .adress-link {
   color: var(--logo-footer-color);
   text-decoration: none;
 }
+
+.plus {
+  color: var(--secondary-color);
+}
+
 .adress-links :hover,
 .adress-links :focus {
   color: var(--logo-current-color);
@@ -275,22 +281,28 @@ body {
 /* about main portfolio */
 
 /* about section about works */
+
 .none-color {
   color: var(--primary-background-color);
 }
+
 button {
   font-size: 16px;
+  /* font-family: inherit; */
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+
 .buttons {
   display: flex;
   padding-left: 495px;
 }
+
 .button {
   font-size: 16px;
   font-weight: 500;
+  font-family: inherit;
   line-height: 1.62;
   letter-spacing: 0.03em;
   display: flex;
@@ -305,16 +317,18 @@ button {
 /* about section projects */
 .projects {
   background: var(--logo-footer-color);
-  border: 1px solid var(--bordtr-foto-color);
+  border: 1px solid var(--border-foto-color);
 }
 .projects-items {
   display: flex;
   padding-left: 215px;
   padding-right: 215px;
 }
+
 .projects-item:first-child {
   margin-right: 30px;
 }
+
 .projects-item {
   margin-right: 30px;
   font-size: 18px;
@@ -330,6 +344,7 @@ button {
 .project {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--secondary-color);
   letter-spacing: 0.03em;
 }
 
