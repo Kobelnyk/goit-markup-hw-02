@@ -288,10 +288,10 @@ body {
 
 button {
   font-size: 16px;
-  /* font-family: inherit; */
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
+ 
 }
 
 .buttons {
@@ -308,6 +308,10 @@ button {
   display: flex;
   margin-right: 8px;
   background-color: var(--secondary-background-color);
+}
+
+.one {
+  background-color: var(--logo-current-color)
 }
 
 .button:first-child {
