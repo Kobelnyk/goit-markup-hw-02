@@ -150,7 +150,8 @@ body {
 }
 .button :hover,
 .button :focus {
-  color: var(--logo-current-color);
+  color: var(--header--background-color);
+  background-color: var(--logo-current-color);
 }
 
 /* about section credo */
@@ -296,6 +297,9 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+.buttons-list{
+  color: var(--header--background-color);
+}
 
 .buttons {
   display: flex;
@@ -311,10 +315,7 @@ button {
   display: flex;
   margin-right: 8px;
   background-color: var(--secondary-background-color);
-}
 
-.one {
-  background-color: var(--logo-current-color);
 }
 
 .button:first-child {
